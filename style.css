@@ -1,0 +1,131 @@
+/* header{
+    background: url(assets/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.6);
+    opacity: .6; 
+  }
+img{
+    max-width: 100%;
+}
+  header{
+    position: relative;
+    height: 100vh;
+  }
+  header .hero-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .main-header{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+  }
+
+  header .bg-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+  }
+.brands-logo img{
+    max-width: 80%;
+    transition: 0.3s;
+    opacity: 0.5;
+    filter: grayscale(100);
+}
+.brands-logo img:hover{
+    filter: none;
+    opacity: 1;
+}
+.outline-0{
+    outline: 0;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.logo span{
+    color: red;
+} */
+
+.main-header{
+    background: url(assets/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.welcome{
+    background: url(assets/bg-callout.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav-button{
+    right: 0;
+}
+.header-content{
+    height: 100%;
+}
+.header-content h1{
+    font-size: 5em;
+}
+.bg-primary{
+    background-color: #17667f!important;
+}
+.header-content button, .welcome button{
+    padding: 10px 0;
+    width: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icons-section i{
+    color: #17667f;
+    font-size: 2em;
+}
+.welcome-content h1{
+    font-size: 3em;
+}
+.icon-mustache{
+    background: url(assets/icon-mustache.png);
+    color: #17667f;
+    font-size: 2em;
+}
+.portfolio-main img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0!important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.portfolio-content{
+    z-index: 2;
+    position: absolute;
+    top: 15em
+}
+.stylish{
+    margin: 10em 0;
+}
